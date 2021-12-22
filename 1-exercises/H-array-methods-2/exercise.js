@@ -5,7 +5,7 @@
   The variable `lastFive` should contain the last five items of `everyone`
 */
 
-var everyone = [
+let everyone = [
   "Daniel",
   "Irina",
   "Rares",
@@ -15,8 +15,8 @@ var everyone = [
   "Swathi",
 ];
 
-var firstFive; // complete this statement
-var lastFive; // complete this statement
+let firstFive; // complete this statement
+let lastFive; // complete this statement
 
 /* 
   DO NOT EDIT BELOW THIS LINE
