@@ -8,7 +8,7 @@ You can tell `.slice()` where you want the slice to begin and end by passing it 
 
 ```sh
 $ node
-> var arr = [0, 1, 2, 3, 4]
+> let arr = [0, 1, 2, 3, 4]
 undefined
 > arr.slice(0, 2)
 [0, 1]
@@ -21,7 +21,7 @@ undefined
 _Returns true if a value is in the array._
 
 ```js
-var mentors = ["Daniel", "Irini", "Ashleigh", "Rob", "Etzali"];
+let mentors = ["Daniel", "Irini", "Ashleigh", "Rob", "Etzali"];
 
 function isAMentor(name) {
   return mentors.includes(name);
